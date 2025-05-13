@@ -9,11 +9,11 @@ import Calendar from './pages/Calendar'
 import Settings from './pages/Settings'
 import Team from './pages/Team'
 import LogOut from './pages/LogOut'
+import Login from './pages/Login'    // mitt tillägg
+import SignUp from './pages/SignUp'  //  mitt tillägg
 
-export default function  App() {
-
+export default function App() {
   return (
-
     <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -24,6 +24,8 @@ export default function  App() {
         <Route path="/calendar" element={<Calendar/>}>/Calendar</Route>
         <Route path="/settings" element={<Settings/>}>/Settings</Route>
         <Route path="/log-out" element={<LogOut/>}>/LogOut</Route>
+        <Route path="/login" element={<Login/>}>/Login</Route>         {/* mitt*/}
+        <Route path="/signup" element={<SignUp/>}>/SignUp</Route>     {/* 👈 mitt tillägg */}
       </Routes>
       <Footer/>
     </BrowserRouter>
