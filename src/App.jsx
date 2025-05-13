@@ -10,7 +10,7 @@ import Settings from './pages/Settings'
 import Team from './pages/Team'
 import LogOut from './pages/LogOut'
 import Login from './pages/Login'    // mitt tillägg
-import SignUp from './pages/SignUp'  //  mitt tillägg
+import SignUp from './pages/SignUp'  //  mitt tillägga
 
 export default function App() {
   return (
